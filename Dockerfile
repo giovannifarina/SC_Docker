@@ -8,10 +8,12 @@ FROM ubuntu:22.04
 RUN apt update
 RUN apt -y install gcc
 RUN apt -y install gdb
-RUN apt -y install nano
+RUN apt -y install valgrind
 RUN useradd --user-group --system --create-home --no-log-init sc
 USER sc
+COPY ./.gdbinit /home/sc/.gdbinit
 WORKDIR /home/sc
+
 
 #RUN apt-get -y install net-tools
 #RUN apt-get -y install iputils-ping

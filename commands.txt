@@ -1,2 +1,8 @@
 docker build -t sc --platform linux/amd64 .
-docker run --name sc -it sc
+docker run --name sc -v /Users/giovannifarina/Desktop/sc_shared:/home/sc/ -it sc
+
+# crea cartella sc_share
+
+docker run -it -v /host/directory:/container/directory my-ubuntu
+
+https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers
