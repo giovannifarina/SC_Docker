@@ -1,0 +1,2 @@
+docker build -t sc --platform linux/amd64 .
+docker run --name sc -it sc
