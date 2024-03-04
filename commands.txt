@@ -12,3 +12,5 @@ docker run -it -v /host/directory:/container/directory my-ubuntu
 https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers
 
 https://youtu.be/p9L7YFqHGk4?si=j9SxtVDmDPLdOIWa
+
+last ref: https://github.com/docker/for-mac/issues/6921
