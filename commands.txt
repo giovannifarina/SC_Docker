@@ -3,6 +3,9 @@ docker run --name sc -v /Users/giovannifarina/Desktop/sc_shared:/home/sc/shared 
 
 docker run --name sc -v /Users/giovannifarina/Desktop/sc_shared:/root/shared --privileged --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it sc
 
+docker run --name sc -v C:\Users\giova\Desktop\sc_shared:/root/shared --privileged --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it sc
+
+
 https://stackoverflow.com/questions/77124810/gdb-crashes-debugging-x86-binary-under-rosetta-2-apple-virtualization-framewor
 
 # crea cartella sc_share
